@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: antiquewhite;
+}
+#app button {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto;
+}
+
+ul {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+li.strike {
+  text-decoration: line-through;
+}
+
+li {
+  padding-left: 10px;
+  cursor: pointer;
+  list-style-type: none;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+li input {
+  margin: 0 20px;
+}
+
+li:nth-child(odd) {
+  background-color: tan;
+}
+
+li:nth-child(even) {
+  background-color: beige;
+}
